@@ -1,9 +1,7 @@
 const Vonage = require('@vonage/server-sdk')
 const express = require('express');
-require('dotenv').config();
-
-
 const app = express();
+require('dotenv').config();
 const port = process.env.PORT;
 
 
@@ -18,10 +16,10 @@ app.get('/', function(req, res) {
         { "type": "mms", "number": req.query.msisdn},
         { "type": "mms", "number": process.env.FROM_NUMBER},
         {
-          "content": {
-            "type": "image",
-            "image": { "url": 'https://media.sproutsocial.com/uploads/meme-example.jpg' }
-          }
+            "content": {
+                "type": "image",
+                "image": { "url": 'https://media.sproutsocial.com/uploads/meme-example.jpg' }
+            }
         },
         (err, data) => {
             if (err) {
@@ -32,9 +30,7 @@ app.get('/', function(req, res) {
         }
     );
     res.status(200).end();
-});
 
+});
 app.listen(port, function() {
 });
-
-
