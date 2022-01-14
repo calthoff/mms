@@ -4,6 +4,7 @@
   "description": "A server to send MMS messages to the number that texts it",
   "main": "main.js",
   "dependencies": {
+    "@vonage/server-sdk": "^2.10.10",
     "dotenv": "^11.0.0",
     "express": "^4.17.2"
   },
