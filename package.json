@@ -1,9 +1,25 @@
 {
   "name": "mms",
   "version": "1.0.0",
+  "description": "A server to send MMS messages to the number that texts it",
+  "main": "main.js",
   "dependencies": {
-    "@vonage/server-sdk": "2.10.10",
-    "dotenv": "11.0.0",
-    "express": "4.17.2"
-  }
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "@vonage/server-sdk": "^2.10.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calthoff/mms.git"
+  },
+  "author": "Cory Althoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calthoff/mms/issues"
+  },
+  "homepage": "https://github.com/calthoff/mms#readme"
 }
