@@ -7,7 +7,7 @@ const port = process.env.PORT;
 
 app.get('/', function(req, res) {
     const vonage = new Vonage({
-        apiKey: process.env.PORTAPI_KEY,
+        apiKey: process.env.API_KEY,
         apiSecret: process.env.API_SECRET,
         applicationId: process.env.APPLICATION_ID,
         privateKey: process.env.PRIVATE_KEY
