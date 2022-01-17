@@ -7,9 +7,9 @@
 3. Configure the CLI with your info
 <code> vonage config:set --apiKey=XXXXXX --apiSecret=XXXXXX </code> 
 4. Create a Vonage app (make sure to select the messages API)
-<code> mkdir my_project <br>
-CD my_project <br>
-vonage apps:create "Test Application 1" </code> 
+<code> mkdir my_project </code> <br>
+<code> CD my_project </code> <br>
+<code> vonage apps:create "Test Application 1" </code> 
 5. Find and buy a number. Make sure it has MMS. If not, the app will not work <b>(A number with MMS in your might not be available)</b>.
 <code> vonage numbers:search US
 vonage numbers:buy [NUMBER] [COUNTRYCODE] </code>
