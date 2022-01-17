@@ -1,4 +1,4 @@
-## A sample app that sends a meme to anyone that texts it.
+## A sample app that sends a meme to anyone that texts it
 
 ## Setup
 1. Sign up for a free Vonage account. 
